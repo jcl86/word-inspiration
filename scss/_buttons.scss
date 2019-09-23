@@ -1,0 +1,28 @@
+
+.btn {
+    border:0;
+    color:white;
+    font-size: 1.2em;
+    padding: 5px 10px;
+
+    &.btn-primary {
+        background-color: $primary-color;
+    }
+
+    &.btn-secondary {
+        background-color: $secondary-color;
+    }
+    
+    &:hover {
+        background-color: darken($color:$primary-color, $amount: 10);
+    }
+}
+
+@media only screen and (min-width: $small-screen) {
+    .btn {
+        &.btn-lg {
+            font-size:2em;
+            padding: 8px 20px;
+        }
+    }
+}

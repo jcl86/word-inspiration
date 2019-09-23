@@ -1,0 +1,41 @@
+.main-section {
+    margin:0;
+    padding: 40px;
+}
+
+.sentence-container {
+    padding: 30px;
+    background-color: $secondary-color;
+}
+
+.sentence {
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.4em;
+}
+
+.author {
+    font-weight: 600;
+    font-size: 0.8em;
+    text-align: right;
+    letter-spacing: 0.5em;
+    margin-bottom: 0px;
+}
+
+.button-container {
+    padding: 20 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: $small-screen) {
+    .main-section {
+        padding: 15px;
+    }
+
+    .sentence {
+        font-size: 1.2em;
+    }
+}
